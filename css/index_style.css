@@ -1,0 +1,213 @@
+*{margin: 0%;padding: 0%;}
+.bg-black{
+    background-color: #090909;}
+.navbar-nav .nav-item .nav-link{color: #fff;} 
+.nav-link{transition: 1s 1s;}
+.nav-item:hover .nav-link {text-decoration: underline; margin-bottom: 
+    10px; padding-bottom: 10px;
+}
+.layeer{width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2);}
+
+header{height:650px;
+background-image: url(../images/intro-bg.jpg);
+background-size: cover;
+background-attachment: fixed;}
+
+.head h1{font-weight: 900;font-size: 4rem;letter-spacing: 3px;padding-bottom: 15px;}
+
+.head p{font-weight: 900;padding-top: 15px;
+font-size: 2rem;}
+.text1{animation: text11;}
+.text2{animation: text22;}
+.text3{animation: text33;}
+.text4{animation: text44;}
+.text5{animation: text55;}
+.text1,.text2,.text3,.text4,.text5{text-align: center;overflow: hidden;white-space: nowrap;display: inline-block;position: relative
+;animation-duration: 14s;animation-timing-function: steps(25,end);animation-iteration-count: infinite;}
+
+.text1::after,.text2::after,.text3::after,.text4::after,.text5::after{content: "|";position: absolute;
+right: 0;animation: caret infinite;
+animation-duration: 1s;animation-timing-function: steps(1,end)}
+
+@keyframes text11{
+    0%,20%,30%,40%,50%,60%,70%,80%,90%,100%{width: 0;}
+    5%{width: 6em;}
+}
+
+
+@keyframes text22{
+    0%,20%,10%,40%,50%,60%,70%,80%,90%,100%{width: 0;}
+    30%{width: 6.5em;}
+}
+@keyframes text33{
+    0%,20%,30%,40%,10%,60%,70%,80%,90%,100%{width: 0;}
+    50%{width: 7em;}
+}
+
+@keyframes text44{
+    0%,20%,30%,40%,50%,60%,70%,10%,90%,100%{width: 0;}
+    70%{width: 7.5em;}
+}
+@keyframes text55{
+    0%,20%,30%,40%,50%,60%,70%,80%,10%,100%{width: 0;}
+    95%{width: 8em;}
+}
+
+@keyframes caret{0%,100%{opacity: 0;}
+50%{opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+/*
+.typewriter{font-weight: 900;
+    font-size: 2rem;}
+
+.typewriter:after{border-right: 3px solid rgba(255,255,255,0.75);
+content: "";
+width: 7em;
+font-size: 1.7em;
+white-space: nowrap;
+animation: textcursor 500ms steps(14) infinite normal,typewriter 4s steps(20) 1s infinite alternate both;
+ }
+
+@keyframes textcursor{from{border-color: (255,255,255,0.75);}to{border-color: transparent;}}
+@keyframes typewriter{0%{width: 0;}
+40%{width: 8em;}
+60%{width: 0;}
+80%{width: 8em;}
+100%{width: 0;}*/
+
+
+
+
+
+
+
+
+
+.aboutme{background: #f1f1f1;}
+.aboutme .container,.serve , .borderproto, .blog ,.morganphoto
+{box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+z-index: 2;}
+.persent{float: right;}
+
+.infostyle{font-weight: 700;}
+.border{width:90px;
+    height: 4px;
+    background: #007bff;
+margin-bottom: 30px;}
+.about p{font-size: 20px;}
+
+.services{background: #f1f1f1; padding-bottom: 50px;}
+.services h2,blog h2{font-weight: 700;}
+.borderserve{width:30px;
+    height: 4px;
+    background: #007bff;
+margin-bottom: 30px;
+    position: relative;
+    left: 660px;
+    
+}
+.serve i{font-size: 50px;
+border: 10px solid #0078ff;
+border-radius: 50%;
+padding: 30px;
+margin-bottom: 20px;}
+.serve:hover i{border: 10px solid rgb(174, 164, 218);color: #fff;background: #569dee;}
+.photo{
+    background-image: url(../images/post-3.jpg);
+    background-size: cover;
+background-attachment: fixed;
+box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.pic{color: #fff;font-size: 15px;font-weight: 600;}
+.pic h6{font-size: 40px;}
+.icon{border: 10px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;}
+.layer{width: 100%;height: 100%;background:#0078ff;opacity: 0.7;}
+.protofoilo{background: #f1f1f1;}
+.borderproto{margin-bottom: 40px;overflow: auto; overflow:hidden;}
+.borderproto i{color: #0078ff;border: 5px solid #0078ff;
+ float:right;
+ border-radius: 50%;
+    padding: 10px ;
+}
+
+.borderproto img{ transition: all 1s;width: 100%; }
+.borderproto:hover img{transform:scale(1.08);}
+.slider{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+background-attachment: fixed;}
+
+.carousel-item i{font-size: 40px; margin-bottom: 10px;
+   }
+.testimonials .carousel-item img
+{
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    position: relative;
+    bottom: 30px;
+}
+
+.carousel-item h6
+{
+    font-size: 1.2rem;
+}
+
+.carousel-indicators
+{
+    position: static;
+}
+.blog{background: #f1f1f1; }
+.blog span{font-size: 18px;position: relative; bottom: 10px;}
+.morganphoto h5 i p {font-size: 10px;background: #f1f1f1;}
+.morganphoto{background: #f1f1f1;overflow: auto; padding: 10px;}
+.morganphoto img{width: 10%;}
+.morganphoto h5{display: inline;padding-left: 10px;padding-top: 10px;}
+.blog h3{font-size: 25px;padding: 15px;}
+.clk{float:right;padding-left: 10px;padding-top: 0px;
+    }
+.para{padding: 15px;}
+
+.lastsec{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.t7reekcont{
+padding: 100px 50px 0px 50px;
+
+}
+.layerr{width: 100%;  /*background:#0078ff;opacity: 0.7;*/ background-color: rgba(36, 105, 255, 0.7) }
+/*
+.cont{    
+    padding: 100px;
+    display: flex;
+  }*/
+
+.social-icons a
+{
+    color: black;
+    padding:7px 10px;
+    border-radius: 50%;
+    font-size: .875rem;
+    margin: 5px;
+    border: 3px solid #0078ff;  
+}
+a:hover i {color: #fff;}
+
+.badgee{  position: relative;display: flex;justify-content: center;align-items: center;}
+
